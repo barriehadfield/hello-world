@@ -1,24 +1,16 @@
-# README
+# Hyperstack deployed to Heroku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Deploy vanilla Rails app to Heroku
 
-Things you may want to cover:
++ Create a new rails app `rails new test-app`
++ Setup Heroku login and follow https://devcenter.heroku.com/articles/getting-started-with-rails5
++ Deploy to Heroku `git push heroku master`
++ Test the app is properly deployed on Heroku with a ERB welcome page
 
-* Ruby version
+## Add Hyperstack
 
-* System dependencies
++ `bundle add 'rails-hyperstack' --version "~> 1.0.alpha1.0"`
++ `bundle exec rails hyperstack:install`
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

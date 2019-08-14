@@ -61,3 +61,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "rails-hyperstack", "~> 1.0.alpha1.0"
+
+group :development do
+  gem 'foreman'
+end
+
+gem 'webpacker'
